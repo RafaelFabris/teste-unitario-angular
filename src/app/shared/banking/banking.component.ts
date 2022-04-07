@@ -37,7 +37,6 @@ export class BankingComponent implements OnInit {
     if(isNaN(depositar) || this.carteira < depositar){
       return;
     }
-
     this.carteira -= depositar;
     return this.poupanca += depositar;
   }
